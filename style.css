@@ -1,113 +1,131 @@
-@font-face {
-	font-family: Coolvetica;
-	src: url("http://ccs.neu.edu/home/derekc/resources/coolvetica rg.otf");
-}
+	@font-face {
+		font-family: Coolvetica;
+		src: url("http://ccs.neu.edu/home/derekc/resources/coolvetica rg.otf");
+	}
 
-@font-face {
-	font-family: Geo Sans Light;
-	src: url("http://ccs.neu.edu/home/derekc/resources/GeosansLight.ttf");
-}
+	@font-face {
+		font-family: Geo Sans Light;
+		src: url("http://ccs.neu.edu/home/derekc/resources/GeosansLight.ttf");
+	}
 
-body {
-	background: url("http://ccs.neu.edu/home/derekc/resources/escheresque.png");
-	color: #F0F0F0;
-	font-family: "Coolvetica", Helvetica;
-}
 
-div {
-	font-family: "Coolvetica", Helvetica; 
-}
 
-a {	
-	color: #F0F0F0;
-	text-decoration: none;
-}
+	body {
+		background: url("http://ccs.neu.edu/home/derekc/resources/escheresque.png");
+		color: #F0F0F0;
+		font-family: "Coolvetica", Helvetica;
+	}
 
-#overlay {
-    position: absolute;
-	background-color: #000000;
-	top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 500px;
-    margin-left: -50%;
-    margin-top: -250px;	
-	opacity: .77;
-}
+	div {
+		font-family: "Coolvetica", Helvetica; 
+	}
 
-#menu {
-	position: absolute;
-	top: 50%;
-    left: 50%;
-    width: 500px;
-    height: 400px;
-    margin-left: -250px;
-    margin-top: -200px;
-}
+	a {	
+		color: #F0F0F0;
+		text-decoration: none;
+	}
 
-#name {
-	text-align: center;
-	font-size: 48px;
-	letter-spacing: 7px;
-}
+	#overlay {
+	    position: absolute;
+		background-color: #000000;
+		top: 50%;
+	    left: 50%;
+	    width: 100%;
+	    height: 500px;
+	    margin-left: -50%;
+	    margin-top: -250px;	
+		opacity: .77;
+	}
 
-#phone, #email {
-	text-align: center;
-	color: #F8F8F8;
-	font-family: "Coolvetica", Helvetica; 
-}
+	#menu {
+		position: absolute;
+		top: 50%;
+	    left: 50%;
+	    width: 500px;
+	    height: 400px;
+	    margin-left: -250px;
+	    margin-top: -200px;
+	}
 
-#phone {
-    margin-left: 6px;
-    letter-spacing: 9.75px;
-}
+	#name {
+		text-align: center;
+		font-size: 48px;
+		letter-spacing: 7px;
+	}
 
-#email {
-    letter-spacing: 2px;
-}
+	#phone, #email {
+		text-align: center;
+		color: #F8F8F8;
+		font-family: "Coolvetica", Helvetica; 
+	}
 
-#navigation {
-	margin-left: 175px;
-	width: 150px;
-	height: 90px;
-}
+	#phone {
+	    margin-left: 6px;
+	    letter-spacing: 9.75px;
+	}
 
-#homeB, #aboutB, #resumeB{
-	color: #F0F0F0;
-	text-align: center;
-	font-size: 24px;
-	transition: font-size .1s;
-	-webkit-transition: font-size .1s;
-}
+	#email {
+	    letter-spacing: 3.5px;
+	}
 
-#homeB {
-    margin-left: 8px;
-    letter-spacing: 12px;
-}
+	#navigation {
+		margin-left: 175px;
+		width: 150px;
+		height: 90px;
+	}
 
-#aboutB {
-    margin-left: 5px;
-    letter-spacing: 8px;
-}
+	#homeB, #aboutB, #resumeB{
+		color: #F0F0F0;
+		text-align: center;
+		font-size: 24px;
+		transition: font-size .1s;
+		-webkit-transition: font-size .1s;
+	}
 
-#resumeB {
-    letter-spacing: 3.5px;
-}
+	#homeB {
+	    margin-left: 8px;
+	    letter-spacing: 12px;
+	}
 
-#homeB:hover, #aboutB:hover, #resumeB:hover{
-	font-family: "Coolvetica", Helvetica;
-	font-size: 28px;
-}
+	#aboutB {
+	    margin-left: 5px;
+	    letter-spacing: 8px;
+	}
 
-#content {
-	text-align: center;
-}
+	#resumeB {
+	    letter-spacing: 3.5px;
+	}
 
-#message {
-	text-align: center;
-	font-size: 16px;
-	letter-spacing: 2px;
-}
+	#homeB:hover, #aboutB:hover, #resumeB:hover{
+		font-family: "Coolvetica", Helvetica;
+		font-size: 28px;
+	}
+
+	#connect {
+		position: absolute;
+		left: 30%;
+		width: 300px;
+		height: 32px;
+	}
+
+	#githubB, #linkedinB, #facebookB, #googleplusB, #youtubeB, #vimeoB {
+		padding: .16cm;
+		float: left;
+		font-size: 5px;
+		transition: 0.075s;
+	    -webkit-transition: 0.075s;
+	    -moz-transition: 0.075s;
+	}
+
+	#githubB:hover, 
+	#linkedinB:hover, 
+	#facebookB:hover, 
+	#googleplusB:hover, 
+	#youtubeB:hover, 
+	#vimeoB:hover {
+	    -webkit-transform: scale(1.25, 1.25);
+	    -moz-transform: scale(1.25, 1.25);
+	}
 
 
 
