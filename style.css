@@ -103,12 +103,12 @@
 
 	#connect {
 		position: absolute;
-		left: 30%;
+		left: 39%;
 		width: 300px;
 		height: 32px;
 	}
 
-	#githubB, #linkedinB, #facebookB, #googleplusB, #youtubeB, #vimeoB {
+	#githubB, #linkedinB, #facebookB {
 		padding: .16cm;
 		float: left;
 		font-size: 5px;
@@ -119,13 +119,12 @@
 
 	#githubB:hover, 
 	#linkedinB:hover, 
-	#facebookB:hover, 
-	#googleplusB:hover, 
-	#youtubeB:hover, 
-	#vimeoB:hover {
+	#facebookB:hover {
 	    -webkit-transform: scale(1.25, 1.25);
 	    -moz-transform: scale(1.25, 1.25);
 	}
+
+
 
 
 
